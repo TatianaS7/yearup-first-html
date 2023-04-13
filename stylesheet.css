@@ -1,0 +1,11 @@
+.nav-item, .row .column {
+    display: inline;
+    padding: 12px;
+}
+.nav-item {
+    margin-right: 20px;
+}
+
+h1 {
+
+}
