@@ -1,43 +1,42 @@
 .nav-item, .row .column {
-    display: inline;
+    display: inline-flex;
     padding: 12px;
 }
-.nav {
-    background-color: lightgrey;
-    display: block;
-    justify-content:left;
-}
-.main-nav {
-    margin-right: 20px;
-    margin-left: 20px;
-    border-style: solid;
-}
-.nav-container {
-    border-style: solid;
-    background-color: chartreuse;
-}
-
-h1 {
-    background-color: yellow;
-}
-
 p {
-    padding-left: 12px;
-    padding-right: 12px;
+    margin-left: 5px;
+    padding-left: 15px;
+    /*padding-right: 12px;*/
+    text-align: justify;
+}
+h1 {
+    padding-left: 15px;
+    text-align: center;
 }
 
 .Img-container .row .column {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;     
+    flex-wrap: wrap;
 }
 .Img-container {
-    display: flex;
-    justify-content: ;
     margin-top: 1em;
     margin-left: 1em;
     margin-right: 1em;
-    background-color: lightgrey;
     padding-left: 12px;
     padding-right: 12px;
+}
+.max-container .nav-container {
+   flex: 0 0 50px;
+    /*display: flex;
+    justify-content:flex-start;
+    flex-direction: column;*/
+}
+.max-container .Img-container {
+    flex: 1;
+    /*display: flex;
+    justify-content:flex-end;
+    flex-direction: column;*/
+}
+.max-container {
+    display: flex;
 }
